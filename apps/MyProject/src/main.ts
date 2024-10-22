@@ -1,1 +1,5 @@
-console.log('Hello World');
+import { models } from '@models';
+
+const a = models();
+
+console.log(a);
